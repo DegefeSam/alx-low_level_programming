@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * My 4-puts program with void 
+/**
+ * main Entry point
+ *
+ * Return zero 
  */
 int main(void)
 {
