@@ -2,8 +2,9 @@
 /**
  * _islower - Checks for lowercase alphabet
  * @alpha: character to be checked
- * Retun: 1 if character is lowercase, 0 otherwise
+ * Retun: 1 if alpha is lowercase
  */
+
 int _islower(int alpha) 
 {
 	if (alpha >= 'a' && alpha <= 'z')
