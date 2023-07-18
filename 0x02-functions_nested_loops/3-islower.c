@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _islower - Checks for lowercase
- * alpha: character to be checked
- * Retun: 1 if character is lower zero otherwise
+ *
+ * Retun: if character is lower zero otherwise
  */
-int _islower(int alpha)
+int _islower(int alpha) /* alpha is a character to be checked */
 {
 	if (alpha >= 'a' && alpha <= 'z')
 		return (1);
