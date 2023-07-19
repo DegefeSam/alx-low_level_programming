@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * add -adds two numbers x and y.
- * @num1: first integer.
- * @num2: second integer*
+ * add -adds two integer numbers x and y.
+ * @x: first integer.
+ * @y: second integer
  * Return: final result.
  */
 int add(int x, int y)
