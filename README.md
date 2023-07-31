@@ -1,1 +1,1 @@
-This is C programming readmefile
+This is my 0x07-pointers_arrays_strings readme file
