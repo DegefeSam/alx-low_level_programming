@@ -16,7 +16,11 @@ int chksqrt(int n, int num)
 	return (chksqrt(n, num + 1));
 
 }
-
+/**
+ * _sqrt_recursion - returns square root of an integer n
+ * @n: number whose square root is to be computed
+ * Return: computation value
+ */
 int _sqrt_recursion(int n)
 {
 
