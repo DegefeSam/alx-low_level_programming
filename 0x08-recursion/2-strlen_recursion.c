@@ -12,9 +12,9 @@ int _strlen_recursion(char *s)
 
 	if (*(s + k) != '\0')
 	{
-		K++;
-		K += _strlen_recursion(s + K);
+		k++;
+		k += _strlen_recursion(s + k);
 	}
 
-	return (K);
+	return (k);
 }
